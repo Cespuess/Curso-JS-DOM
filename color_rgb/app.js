@@ -25,6 +25,7 @@ function updateColor(red, green, blue) {
 
 // EventListeners
 inputRed.addEventListener("change", (e) => {
+  console.log(e);
   red = e.target.value;
   textRed.innerText = red;
   updateColor(red, green, blue);
